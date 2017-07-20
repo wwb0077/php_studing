@@ -18,6 +18,7 @@ header("Content-Type:text/html; charset=utf-8");
  *          foreach($数组名 as 赋值键名的变量 => 赋值键名的变量){}
  *      简洁写法：
  *          foreach(函数名 as 赋值的变量){}
+ *      支持 break 【跳出】 和continue 【跳过】！！！
  */
 $list = ['胡老师','无相','江红'];
 //使用传统的for进行数组的遍历
