@@ -12,6 +12,6 @@ function sums($any){
     for($i=0;$i<=$any;$i++){
         $sum += $i;
     }
-    return $sum;
+    return $sum;//返回值 返回值需要多个时，可以利用数组的形式返回[$a,$b]
 }
 echo sums(1001);
