@@ -29,3 +29,4 @@ function star($line){
     echo '<pre>';
 }
 star(5);star(15);star(25);
+
