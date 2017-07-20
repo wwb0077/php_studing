@@ -7,11 +7,11 @@
  */
 header("Content-Type:text/html; charset=utf-8");
 
-function jia($any){
+function sums($any){
     $sum =0;
     for($i=0;$i<=$any;$i++){
         $sum += $i;
     }
     return $sum;
 }
-echo jia(100);
+echo sums(1001);
