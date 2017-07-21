@@ -1,0 +1,21 @@
+Git push 的时候失败，提示冲突，需要pull。 于是git pull ，结果pull失败。 fatal: refusing to merge unrelated histories
+
+git --version看了下版本，
+
+git version 2.10.1 (Apple Git-78)
+
+因为git上的项目有个readme文件，
+旧版本可以直接git pull合并，好像2.9.2之后发生变化，
+合并：
+$ git pull origin master --allow-unrelated-histories
+之后：
+$ git push -u origin master
+
+OK，成功。
+
+
+附：
+查看仓库已经建立的连接：
+$ git remote -v
+更改：
+$ git remote set-url origin 新连接地址
