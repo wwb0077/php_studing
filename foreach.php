@@ -32,4 +32,4 @@ $list_a = ['bo'=>'胡老师','无相','江红'];
 foreach ($list_a as $value){
     echo $value;
 }
-//ddd d111111
+//数组遍历的方式
